@@ -10,3 +10,12 @@ alert('Olá, ' + nome);
 
 document.querySelector("h1").innerText += ' ' + nome;
 document.querySelector("p").innerText += ' ' + nome;
+
+window.addEventListener('load', function() {
+
+    let linkContato = document.getElementById('contato');
+        linkContato.addEventListener("click", function() {
+        alert('A pagina de contato está em reforma');
+    });
+
+});
