@@ -19,3 +19,13 @@ window.addEventListener('load', function() {
     });
 
 });
+
+let home = document.getElementById('home');
+
+home.onclick = function () {
+    this.style.transform = "scale(1.5)";
+};
+
+home.ondblclick = function () {
+    this.style.transform = "scale(1)";
+};
