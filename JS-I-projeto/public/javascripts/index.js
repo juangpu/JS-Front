@@ -29,3 +29,10 @@ home.onclick = function () {
 home.ondblclick = function () {
     this.style.transform = "scale(1)";
 };
+
+window.addEventListener("keypress", function (event) {
+    switch(event.key) {
+        case "Enter":
+            alert("Opa, você apertou a tecla Enter?")
+    }
+});
