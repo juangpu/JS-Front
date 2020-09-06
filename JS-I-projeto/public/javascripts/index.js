@@ -36,3 +36,7 @@ window.addEventListener("keypress", function (event) {
             alert("Opa, você apertou a tecla Enter?")
     }
 });
+
+setTimeout(function () {
+    document.body.style.backgroundColor = 'blue'
+}, 3000);
